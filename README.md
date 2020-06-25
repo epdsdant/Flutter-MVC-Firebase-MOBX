@@ -1,6 +1,6 @@
-# todos
+# Flutter MVC
 
-A new Flutter project.
+Projeto está sendo criando utilizando a arquitetura MVC, componentização, autenticação usando Firebase e gerenciamento de estado com MOBX.
 
 ## Getting Started
 
