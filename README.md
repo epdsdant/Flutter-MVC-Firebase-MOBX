@@ -1,6 +1,6 @@
 # Flutter MVC
 
-Projeto está sendo criando utilizando a arquitetura MVC, componentização, autenticação usando Firebase e gerenciamento de estado com MOBX.
+Projeto em desenvolvimento, utilizando a arquitetura MVC, componentização, autenticação com Firebase e gerenciamento de estado com MOBX.
 
 ## Getting Started
 
