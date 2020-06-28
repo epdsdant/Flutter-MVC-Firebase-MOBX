@@ -7,7 +7,7 @@ import '../user.dart';
 
 class TodoRepository {
   Future<List<TodoItem>> getTodayTodos() async {
-    var url = "https://10.0.2.2:5001/v1/todos/undone/today";
+    var url = "https://localhost:5001/v1/todos/undone/today";
 
     Response response = await Dio().get(
       url,
@@ -24,7 +24,7 @@ class TodoRepository {
   }
 
   Future<List<TodoItem>> getTomorrowTodos() async {
-    var url = "https://10.0.2.2:5001/v1/todos/undone/tomorrow";
+    var url = "https://localhost:5001/v1/todos/undone/tomorrow";
 
     Response response = await Dio().get(
       url,
@@ -41,7 +41,7 @@ class TodoRepository {
   }
 
   Future<List<TodoItem>> getAllTodos() async {
-    var url = "https://10.0.2.2:5001/v1/todos";
+    var url = "https://localhost:5001/v1/todos";
 
     Response response = await Dio().get(
       url,
@@ -58,7 +58,7 @@ class TodoRepository {
   }
 
   Future<TodoItem> add(TodoItem item) async {
-    var url = "https://10.0.2.2:5001/v1/todos";
+    var url = "https://localhost:5001/v1/todos";
 
     try {
       Response response = await Dio().post(url,
@@ -73,7 +73,7 @@ class TodoRepository {
   }
 
   Future<TodoItem> marasDone(TodoItem item) async {
-    var url = "https://10.0.2.2:5001/v1/todos/mark-as-done";
+    var url = "https://localhost:5001/v1/todos/mark-as-done";
 
     try {
       Response response = await Dio().put(url,
